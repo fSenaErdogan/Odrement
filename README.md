@@ -1,8 +1,17 @@
-# React + Vite
+# ODREMENT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, Tailwind ile yazılmış Component tasarımlarını içermektedir.
 
-Currently, two official plugins are available:
+## Teknolojiler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [React Icons](https://react-icons.github.io/react-icons/)
+
+Uygulama, varsayılan olarak `http://localhost:5173` adresinde çalışacaktır.
+
+## Katkıda Bulunma
+
+1.  Bu depoyu forklayın 
+2.  Yeni bir özellik ekleyin veya hata düzeltin (branch oluşturun).
+3.  Değişikliklerinizi yayınlayın (commit).
+4.  Kendi forkladığınız depoya geri dönün ve bir pull request açın.
