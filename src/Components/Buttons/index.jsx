@@ -11,40 +11,45 @@ const Buttons = () => {
                     button 01
                 </button>
 
-                <button className="button2 abc relative overflow-hidden transition-all transform 
+                <button className="button2 relative overflow-hidden transition-all transform 
                  bg-orange-100 px-5 py-2 rounded-full text-md border-2 border-orange-200">
                     button 02
-                </button>{/* css var */}
+                </button>
 
                 <button className=" translate-x-0 hover:translate-y-1 hover:bg-amber-300 transition-all duration-700
                 bg-amber-200 px-5 py-2 rounded-full text-md">
                     button 03
                 </button>
 
-                <button className="button4 abc relative overflow-hidden transition-all transform
+                <button className="button4 relative overflow-hidden transition-all transform
                  bg-yellow-300 px-5 py-2 rounded-full text-md">
                     button 04
-                </button>{/* css var */}
+                </button>
 
                 <button className="button5 relative overflow-hidden transition-all transform
                 bg-lime-200 px-5 py-2 border-2 border-lime-500 rounded-full text-md">
                     button 05
-                </button>{/* css var */}
+                </button>
 
-                <button className="transition-all transform duration-500 hover:border-4 hover:border-green-500
+                <button className="transition-all duration-500 hover:border-4 hover:border-green-500
                 bg-green-200 border-4 border-green-200 px-5 py-2 rounded-full text-md">
                     button 06
                 </button>
 
-                <button className="bg-emerald-200 px-5 py-2 rounded-full text-md">
+                <button className="transition-all duration-500 border-4 border-emerald-200
+                 border-x-emerald-700/40 border-y-emerald-300/40 hover:border-x-emerald-300/60 hover:border-y-emerald-700/40
+                bg-emerald-200 px-5 py-2 rounded-full text-md">
                     button 07
                 </button>
 
-                <button className="bg-teal-200 px-5 py-2 rounded-full text-md">
+                <button className="button8 relative overflow-hidden border border-teal-500/50
+                transition-all duration-500 hover:drop-shadow-xl
+                bg-teal-300 px-5 py-2 rounded-full text-md">
                     button 08
                 </button>
 
-                <button className="bg-cyan-200 px-5 py-2 rounded-full text-md">
+                <button className="transition-all duration-500 hover:-translate-y-1 hover:bg-cyan-500/50 hover:shadow-md
+                bg-cyan-200 px-5 py-2 rounded-full text-md">
                     button 09
                 </button>
 
