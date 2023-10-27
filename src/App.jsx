@@ -16,7 +16,7 @@ function App() {
       id: "2",
       name: "Input Fields",
       content: "Buraya Input Alanları Gelecek",
-      disabled: false
+      disabled: true
     },
     {
       id: "3",
@@ -45,7 +45,49 @@ function App() {
       id: "4",
       name: "Notifications",
       content: "Buraya Bildirimler Gelecek",
-      disabled: true
+      disabled: false
+    },
+    {
+      id: "5",
+      name: "Cards",
+      content: "Buraya Kartlar Gelecek",
+      disabled: false
+    },
+    {
+      id: "6",
+      name: "Accordion",
+      content: "Buraya Akordeonlar Gelecek",
+      disabled: false
+    },
+    {
+      id: "7",
+      name: "Navigation Bar ",
+      content: "Buraya Navigasyon Çubukları Gelecek",
+      disabled: false
+    },
+    {
+      id: "8",
+      name: "Pagination",
+      content: "Buraya Sayfalandırma Gelecek",
+      disabled: false
+    },
+    {
+      id: "9",
+      name: "Popup",
+      content: "Buraya Popup lar Gelecek",
+      disabled: false
+    },
+    {
+      id: "10",
+      name: "Star Rating",
+      content: "Buraya Star Ratingler Gelecek",
+      disabled: false
+    },
+    {
+      id: "11",
+      name: "Link Button",
+      content: "Buraya Sosyal medya paylaşım düğmeleri Gelecek",
+      disabled: false
     }
   ])
 
