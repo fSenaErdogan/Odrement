@@ -1,0 +1,8 @@
+.pastel .button10 .icon {
+    width: 10px;
+    padding-top: 30px;
+    transition: 500ms all;
+}
+.pastel .button10:hover .icon {
+    @apply translate-y-[-33px]
+}

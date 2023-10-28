@@ -1,0 +1,11 @@
+.pastel .button2::after {
+    @apply absolute top-0 left-0 w-0 h-[100%] z-[-1];
+    content: "";
+    background: #f8cda7;
+    transition: width 800ms;
+    filter: blur(10px);
+}
+
+.pastel .button2:hover::after {
+    width: 100%;
+}

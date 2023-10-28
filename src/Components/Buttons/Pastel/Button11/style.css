@@ -1,0 +1,12 @@
+.pastel .button11::after {
+    @apply absolute bottom-1 -left-7 w-8 h-8 z-[-1];
+    content: "";
+    background: #1e40af;
+    transition: all 2s;
+    filter: blur(19px);
+    
+}
+.pastel .button11:hover::after {
+    @apply  left-24 opacity-60;
+
+}
