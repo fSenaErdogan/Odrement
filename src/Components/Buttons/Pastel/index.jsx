@@ -23,7 +23,7 @@ const Pastel = () => {
 
     return (
         <>
-            <div className="pastel bg-white p-5 rounded-md items-center gap-5 flex flex-wrap text-black/70">
+            <div className="pastel bg-white p-5 rounded-md items-center gap-5 justify-center  flex flex-wrap text-black/70">
                 <PButton1>
                     button 01
                 </PButton1>

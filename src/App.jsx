@@ -2,6 +2,7 @@ import { useState } from "react"
 import AppContainer from "./Components/AppContainer"
 import Tab from "./Components/Tab"
 import Buttons from "./Components/Buttons"
+import Inputs from "./Components/Inputs"
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     {
       id: "2",
       name: "Input Fields",
-      content: "Buraya Input Alanları Gelecek",
+      content: <Inputs />,
       disabled: true
     },
     {

@@ -4,7 +4,7 @@ const Vibrant = () => {
 
     return (
         <>
-            <div className="vibrant bg-white p-5 rounded-md items-center gap-5 flex flex-wrap">
+            <div className="vibrant bg-white p-5 rounded-md items-center gap-5 justify-center flex flex-wrap">
 
                 <button className="bg-red-400 px-5 py-2 rounded-full text-md">
                     button 01

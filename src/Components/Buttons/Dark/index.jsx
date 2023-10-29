@@ -4,7 +4,7 @@ const Dark = () => {
 
     return (
         <>
-            <div className="vibrant bg-white p-5 rounded-md items-center gap-5 flex flex-wrap text-white/90">
+            <div className="dark bg-white p-5 rounded-md items-center gap-5 justify-center flex flex-wrap text-white/90">
 
                 <button className="bg-red-800 px-5 py-2 rounded-full text-md">
                     button 01
