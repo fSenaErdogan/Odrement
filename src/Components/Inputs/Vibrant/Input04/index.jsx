@@ -1,5 +1,5 @@
 
-const PInput4 = ({ placeholder, type }) => {
+const VInput4 = ({ placeholder, type }) => {
 
     return (
         <>
@@ -9,4 +9,4 @@ const PInput4 = ({ placeholder, type }) => {
     )
 }
 
-export default PInput4
+export default VInput4

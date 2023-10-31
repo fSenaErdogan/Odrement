@@ -1,4 +1,4 @@
-import PButton1 from "./Button01" //BUTONLAR
+import PButton1 from "./Button01" //PASTEL BUTONLAR
 import PButton2 from "./Button02"
 import PButton3 from "./Button03"
 import PButton4 from "./Button04"

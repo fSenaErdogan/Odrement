@@ -40,7 +40,7 @@ function App() {
         }
       ],
       content: "Buraya Form Elemanları Gelecek",
-      disabled: true
+      disabled: false
     },
     {
       id: "4",
