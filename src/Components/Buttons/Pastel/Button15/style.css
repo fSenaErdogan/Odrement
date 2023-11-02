@@ -1,0 +1,13 @@
+
+.pastel .button15::after {
+    @apply absolute -bottom-10 -left-2 w-7 h-10 z-[-1] opacity-50;
+    content: "";
+    background: #d946ef;
+    transition: all 3s;
+    filter: blur(15px);
+    rotate: 10deg;
+}
+.pastel .button15:hover::after {
+    @apply  left-28 opacity-70 bottom-14  w-7 h-10;
+    rotate: -10deg;
+}

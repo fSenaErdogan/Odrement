@@ -11,14 +11,14 @@ const Tab = ({ topics, defaultTab = 0 }) => {
     }
 
     const firstDisabledBtn = topics.findIndex(topic => topic.disabled === false);
-
+    
     return (
         <>
-            <div className="tab-container">
-                <div className="tab-buttons  flex me-10 ">
+            <div className="tab-container overflow-y-auto overflow-hidden">
+                <div className="tab-buttons overflow-auto md:overflow-hidden no-scrollbar flex mb-3 md:mb-0 md:me-9 ">
                     {
                         topics.map((topic, index) => (
-                            <Button topic={topic} index={index} activeTab={activeTab} activeToggle={activeToggle} firstDisabledBtn={firstDisabledBtn} />
+                            <Button topic={topic} count={topics.length-1} index={index} activeTab={activeTab} activeToggle={activeToggle} firstDisabledBtn={firstDisabledBtn} />
                         ))
                     }
                 </div>

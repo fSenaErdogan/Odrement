@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    /* overflow-x-auto */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fed7aa;
+    /* Kaydırma çubuğu rengi */
+    border-radius: 10px;
+    /* Kenar yuvarlatma */
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}

@@ -1,0 +1,49 @@
+.pastel .button16::after {
+    @apply absolute z-[-1];
+    content: "";
+    transition: all 1s;
+    background-color: #f472b6;
+    filter: blur(10px);
+    animation: stepAnimation 12s;
+}
+
+@keyframes stepAnimation {
+    0% {
+        @apply w-1 h-10 left-2 bottom-7 opacity-90 rotate-45;
+    }
+    10% {
+        @apply w-2 h-9 left-20 bottom-7 opacity-70 rotate-90;
+    }
+
+    20% {
+        @apply w-3 h-8 left-24 bottom-5 opacity-80 rotate-180;
+    }
+
+    50% {
+        @apply w-4 h-7 left-20 bottom-1 opacity-90 rotate-45;
+    }
+
+    40% {
+        @apply w-5 h-6 left-2 bottom-1 opacity-70 rotate-90;
+    }
+
+    50% {
+        @apply w-6 h-5 left-20 bottom-1 opacity-80 rotate-180;
+    }
+
+    60% {
+        @apply w-7 h-4 left-2 bottom-7 opacity-90 rotate-45;
+    }
+
+    70% {
+        @apply w-8 h-3 left-5 bottom-5 opacity-70 rotate-90;
+    }
+
+    85% {
+        @apply w-9 h-2 left-20 bottom-10 opacity-80 rotate-180;
+    }
+
+    100% {
+        @apply w-10 h-1 left-2 bottom-1 opacity-90 rotate-45;
+    }
+}

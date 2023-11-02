@@ -1,0 +1,19 @@
+.pastel {
+
+    .button18 {
+        position: relative;
+
+        &:hover .bar {
+            @apply w-1 h-4 left-2 bottom-7 opacity-90;
+        }
+
+        button {
+            @apply relative z-20 block;
+        }
+
+        .bar {
+            @apply absolute z-10 inline-block transition-all duration-[3s] bg-[#7c7c7c] blur-[1px];
+        }
+    }
+
+}
