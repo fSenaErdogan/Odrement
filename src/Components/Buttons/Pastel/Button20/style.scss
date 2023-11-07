@@ -1,0 +1,36 @@
+.pastel {
+
+    .button20 {
+        position: relative;
+
+        button {
+            @apply relative z-20 block;
+        }
+
+        .bar {
+            @apply absolute block cursor-pointer h-10 top-0 left-0 w-full z-10 blur-[10px] rounded-full overflow-hidden;
+        }
+
+        .bar::before {
+            @apply absolute top-0 left-0 w-[400%] h-[100%] ;
+            content: "";
+            background: linear-gradient(128deg, #d6d3d1, #78716c, #d6d3d1, #78716c, #d6d3d1, #78716c);
+            background-size: 25% 100%;
+            animation: anima .95s linear infinite;
+            animation-play-state: paused;
+            translate: -5% 0%;
+            transition: translate 0.25s ease-out;
+        }
+
+        &:hover .bar::before {
+            animation-play-state: running;
+            transition-duration: 0.75s;
+        }
+    }
+}
+
+@keyframes anima {
+    to {
+        transform: translateX(-25%);
+    }
+}
