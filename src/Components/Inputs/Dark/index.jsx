@@ -19,6 +19,7 @@ const Dark = () => {
                 <DInput3 placeholder="Input03" />
                 <DInput4 placeholder="Input04" />
                 <DInput5 placeholder="Input05" />
+                
                 <DInput6 placeholder="Input06" />
                 <DInput7 placeholder="Input07" />
                 <DInput8 placeholder="Input08" />

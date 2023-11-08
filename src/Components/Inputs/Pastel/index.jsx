@@ -19,6 +19,7 @@ const Pastel = () => {
                 <PInput3 placeholder="Input03" />
                 <PInput4 placeholder="Input04" />
                 <PInput5 placeholder="Input05" />
+                
                 <PInput6 placeholder="Input06" />
                 <PInput7 placeholder="Input07" />
                 <PInput8 placeholder="Input08" />

@@ -1,90 +1,108 @@
-
+import DButton1 from "./Button01"
+import DButton2 from "./Button02"
+import DButton3 from "./Button03"
+import DButton4 from "./Button04"
+import DButton5 from "./Button05"
+import DButton6 from "./Button06"
+import DButton7 from "./Button07"
+import DButton8 from "./Button08"
+import DButton9 from "./Button09"
+import DButton10 from "./Button10"
+import DButton11 from "./Button11"
+import DButton12 from "./Button12"
+import DButton13 from "./Button13"
+import DButton14 from "./Button14"
+import DButton15 from "./Button15"
+import DButton16 from "./Button16"
+import DButton17 from "./Button17"
+import DButton18 from "./Button18"
+import DButton19 from "./Button19"
+import DButton20 from "./Button20"
 
 const Dark = () => {
 
     return (
         <>
             <div className="dark bg-white p-5 rounded-md items-center gap-5 justify-center flex flex-wrap">
-
-                <button className="bg-red-800 text-white/90 px-5 py-2 rounded-full text-md">
+                 <DButton1>
                     button 01
-                </button>
+                </DButton1>
 
-                <button className="bg-orange-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton2>
                     button 02
-                </button>
+                </DButton2>
 
-                <button className="bg-amber-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton3>
                     button 03
-                </button>
+                </DButton3>
 
-                <button className="bg-yellow-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton4>
                     button 04
-                </button>
+                </DButton4>
 
-                <button className="bg-lime-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton5>
                     button 05
-                </button>
+                </DButton5>
 
-                <button className="bg-green-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton6>
                     button 06
-                </button>
+                </DButton6>
 
-                <button className="bg-emerald-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton7>
                     button 07
-                </button>
+                </DButton7>
 
-                <button className="bg-teal-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton8>
                     button 08
-                </button>
+                </DButton8>
 
-                <button className="bg-cyan-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton9>
                     button 09
-                </button>
+                </DButton9>
 
-                <button className="bg-sky-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton10>
                     button 10
-                </button>
+                </DButton10>
 
-                <button className="bg-blue-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton11>
                     button 11
-                </button>
+                </DButton11>
 
-                <button className="bg-indigo-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton12>
                     button 12
-                </button>
+                </DButton12>
 
-                <button className="bg-violet-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton13>
                     button 13
-                </button>
+                </DButton13>
 
-                <button className="bg-purple-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton14>
                     button 14
-                </button>
+                </DButton14>
 
-                <button className="bg-fuchsia-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton15>
                     button 15
-                </button>
+                </DButton15>
 
-                <button className="bg-pink-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton16>
                     button 16
-                </button>
+                </DButton16>
 
-                <button className="bg-rose-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton17>
                     button 17
-                </button>
+                </DButton17>
 
-                <button className="bg-zinc-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton18>
                     button 18
-                </button>
+                </DButton18>
 
-                <button className="bg-slate-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton19>
                     button 19
-                </button>
+                </DButton19>
 
-                <button className="bg-stone-800 text-white/90 px-5 py-2 rounded-full text-md">
+                <DButton20>
                     button 20
-                </button>
+                </DButton20> 
             </div>
         </>
     )

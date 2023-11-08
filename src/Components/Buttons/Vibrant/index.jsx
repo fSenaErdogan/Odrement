@@ -1,3 +1,23 @@
+import VButton1 from "./Button01"
+import VButton2 from "./Button02"
+import VButton3 from "./Button03"
+import VButton4 from "./Button04"
+import VButton5 from "./Button05"
+import VButton6 from "./Button06"
+import VButton7 from "./Button07"
+import VButton8 from "./Button08"
+import VButton9 from "./Button09"
+import VButton10 from "./Button10"
+import VButton11 from "./Button11"
+import VButton12 from "./Button12"
+import VButton13 from "./Button13"
+import VButton14 from "./Button14"
+import VButton15 from "./Button15"
+import VButton16 from "./Button16"
+import VButton17 from "./Button17"
+import VButton18 from "./Button18"
+import VButton19 from "./Button19"
+import VButton20 from "./Button20"
 
 
 const Vibrant = () => {
@@ -6,85 +26,86 @@ const Vibrant = () => {
         <>
             <div className="vibrant bg-white p-5 rounded-md items-center gap-5 justify-center flex flex-wrap">
 
-                <button className="bg-red-400 px-5 py-2 rounded-full text-md">
+                <VButton1>
                     button 01
-                </button>
+                </VButton1>
 
-                <button className="bg-orange-400 px-5 py-2 rounded-full text-md">
+                <VButton2>
                     button 02
-                </button>
+                </VButton2>
 
-                <button className="bg-amber-400 px-5 py-2 rounded-full text-md">
+                <VButton3>
                     button 03
-                </button>
+                </VButton3>
 
-                <button className="bg-yellow-400 px-5 py-2 rounded-full text-md">
+                <VButton4>
                     button 04
-                </button>
+                </VButton4>
 
-                <button className="bg-lime-400 px-5 py-2 rounded-full text-md">
+                <VButton5>
                     button 05
-                </button>
+                </VButton5>
 
-                <button className="bg-green-400 px-5 py-2 rounded-full text-md">
+                <VButton6>
                     button 06
-                </button>
+                </VButton6>
 
-                <button className="bg-emerald-400 px-5 py-2 rounded-full text-md">
+                <VButton7>
                     button 07
-                </button>
+                </VButton7>
 
-                <button className="bg-teal-400 px-5 py-2 rounded-full text-md">
+                <VButton8>
                     button 08
-                </button>
+                </VButton8>
 
-                <button className="bg-cyan-400 px-5 py-2 rounded-full text-md">
+                <VButton9>
                     button 09
-                </button>
+                </VButton9>
 
-                <button className="bg-sky-400 px-5 py-2 rounded-full text-md">
+                <VButton10>
                     button 10
-                </button>
+                </VButton10>
 
-                <button className="bg-blue-400 px-5 py-2 rounded-full text-md">
+                <VButton11>
                     button 11
-                </button>
+                </VButton11>
 
-                <button className="bg-indigo-400 px-5 py-2 rounded-full text-md">
+                <VButton12>
                     button 12
-                </button>
+                </VButton12>
 
-                <button className="bg-violet-400 px-5 py-2 rounded-full text-md">
+                <VButton13>
                     button 13
-                </button>
+                </VButton13>
 
-                <button className="bg-purple-400 px-5 py-2 rounded-full text-md">
+                <VButton14>
                     button 14
-                </button>
+                </VButton14>
 
-                <button className="bg-fuchsia-400 px-5 py-2 rounded-full text-md">
+                <VButton15>
                     button 15
-                </button>
+                </VButton15>
 
-                <button className="bg-pink-400 px-5 py-2 rounded-full text-md">
+                <VButton16>
                     button 16
-                </button>
+                </VButton16>
 
-                <button className="bg-rose-400 px-5 py-2 rounded-full text-md">
+                <VButton17>
                     button 17
-                </button>
+                </VButton17>
 
-                <button className="bg-zinc-400 px-5 py-2 rounded-full text-md">
+                <VButton18>
                     button 18
-                </button>
+                </VButton18>
 
-                <button className="bg-slate-400 px-5 py-2 rounded-full text-md">
+                <VButton19>
                     button 19
-                </button>
+                </VButton19>
 
-                <button className="bg-stone-400 px-5 py-2 rounded-full text-md">
+                <VButton20>
                     button 20
-                </button>
+                </VButton20>
+
             </div>
         </>
     )

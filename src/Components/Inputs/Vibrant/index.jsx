@@ -19,6 +19,7 @@ const Vibrant = () => {
                 <VInput3 placeholder="Input03" />
                 <VInput4 placeholder="Input04" />
                 <VInput5 placeholder="Input05" />
+                
                 <VInput6 placeholder="Input06" />
                 <VInput7 placeholder="Input07" />
                 <VInput8 placeholder="Input08" />
