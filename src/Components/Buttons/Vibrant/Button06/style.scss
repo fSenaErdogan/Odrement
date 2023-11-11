@@ -1,0 +1,19 @@
+.vibrant {
+    .button6 {
+        &:before {
+            @apply absolute h-0 w-0 top-0 left-0;
+            content: '';
+            background: linear-gradient(135deg, rgba(255, 255, 255, 1) 50%, rgb(1, 133, 19) 45%, rgb(18, 214, 19) 60%);
+            border-radius: 0 0 0.4em 0;
+            box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+            transition: 0.2s;
+        }
+
+        &:hover {
+            &:before {
+                @apply w-5 h-5;
+            }
+        }
+    }
+
+}

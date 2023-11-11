@@ -1,5 +1,5 @@
 .pastel .button4::after {
-    @apply absolute top-[-7px] -left-5 bg-white w-4 h-[60px] translate-x-[-100%] transition-all duration-500 z-[-1];
+    @apply absolute top-[-7px] -left-5 bg-white w-4 h-[60px] translate-x-[-100%] transition-all duration-500 z-[-1] ;
     content: "";
     rotate: -25deg;
     filter: blur(10px);
